@@ -71,7 +71,7 @@ body{
 
 .bgimage h1{
      
-    max-width: 890px;
+    max-width: 8px;
     font-size: 82px;
     font-weight: 800;
     color: var(--main-color);
@@ -143,7 +143,7 @@ body{
 
  .welcometext h2{
     max-width: 803px;
-       font-size: 82px;
+       font-size: 65px;
     color: var(--main-color);
     line-height: 1.1; 
  }
