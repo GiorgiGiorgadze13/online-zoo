@@ -37,48 +37,35 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-block: 30px;
 }
-header ul{
+ 
+ .nav-social{
     display: flex;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-.logo{
-   margin-block: 30px;
-    margin-left: 260px;
-}
-.socialicons{
-   margin-right: 260px;
-   margin-block: 34px;
-}
-.socialicons ul{
+    align-items: center;
+     gap: 50px
+ }
+ 
+ .socialicons ul{
     display: flex;
-    gap: 30px;
-}
-
-nav {
-    margin-block: 40px;
-    font-size: 18px;
-    color: 000000;
-    font-weight: 600;
-    margin-left: 405px;
-     
-}
+ gap:15px }
+ 
+ 
 .navlist ul{
     display: flex;
     gap: 48px;
-}
-.navlist ul li span{
-    color: #00A092;
+     font-size: 19px;
+    font-weight: 600;
 }
  
+ 
+ 
 .bgimage{
-    background-image: url(../../images/pandabaground.png);
+    background-image: url(./online-zoo/assets/images/pandabaground.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
- 
+    width: 100%;
 
 }
 
@@ -89,38 +76,58 @@ nav {
     font-weight: 800;
     color: var(--main-color);
 }
-.cont{
-padding-left: 261px;
-    padding-top: 160px;
-    padding-right: 800px;
-     display: flex;
-    flex-direction: column;
-    gap: 50px;
-}
+ 
 
 .bgimage p{
+
     font-size: 19px;
     font-weight: 400;
     max-width: 430px;
     color:var(--secondary-color)
 }
 .bgimage button{
-    margin-bottom: 338px;
-   padding-block: 20px; 
+    padding-block: 20px; 
     max-width: 240px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #F58021;
-    color: white;
+     color: white;
+     display: flex;
+     align-items: center;
+     background-color: var(--third-color);
+     padding-inline: 15px;
+     gap:15px;
+ border: none;  
+    outline: none;}
+
+    .button{
+            padding-block: 20px; 
+    max-width: 300px;
+    font-size: 28px;
+    font-weight: 600;
+     color: white;
+     display: flex;
+     align-items: center;
+     background-color: var(--third-color);
+     padding-inline: 15px;
+     gap:15px;
+ border: none;  
+    outline: none;
+    }
+.container{
+     max-width: 1680px;
+    margin: 0 auto;
+    width: 70%;
+ }
+.background-text{
+    display: flex;
+    flex-direction: column;
+        gap: 50px;
+    padding-block: 100px;
+
 }
 
-.container{
-    padding-top:100px ;
-    max-width: 1680px;
-    margin: 0 auto;
- }
-
  .welcomeup{
+    margin-top: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -152,20 +159,28 @@ padding-left: 261px;
 max-width: 800px;
  }
 
- .wrapper{
+ .wrapper  {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #20113D;
-    gap:20px
+    gap:20px;
+    
+ }
+ .donationflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 30px;
+        background-color: #20113D;
+
  }
 
  .textside{
         display: flex;
     flex-direction: column;
      gap: 20px;
-    padding-block:50px ;
-    padding-left: 260px;
+    
  }
 
  .textside h2{
@@ -186,7 +201,15 @@ max-width: 800px;
  .buttonside{
     display: flex;
     flex-direction: column;
-    padding-right: 260px;
+    align-items: flex-start;
+    gap:20px;
+  
+   }
+   .buttonside p{
+    color: white;
+     font-size: 26px;
+    font-weight: 600;
+    line-height: 100%;
    }
  
 .buttonside button h2{
@@ -197,24 +220,28 @@ max-width: 800px;
 }
 .buttonside button p{
     color: white;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 600;
     line-height: 100%;
     margin-bottom: 10px;
     
 }
 .buttonside button{
-    padding-block: 26px;
-    display: flex;
-    justify-content: center;
+          display: flex;
+  justify-content: space-between;  
+  align-items: center;
 
-    padding-left: 14px;
-    padding-right: 65px;
-    background: linear-gradient(to right, #20113D 70%, #F58021 30%);
-    color: white;
-}
+ 
+  padding: 26px 30px;
+
+  background: linear-gradient(to right, #20113D 70%, #F58021 30%);
+  color: white;
+ }
 .buttonside button span{
     margin-left: 120px;
+}
+.buttonside button img{
+    margin-left: 100px;
 }
 
 .animalcontainer{
@@ -297,3 +324,17 @@ max-width: 800px;
   display: block;    
 }
 
+.lemur{
+    max-width: 200px;
+}
+
+.switch  {
+     margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.switch button{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
