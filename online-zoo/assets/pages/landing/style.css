@@ -1,0 +1,299 @@
+:root {
+    --main-color:#00A092;
+    --secondary-color:#000000;
+    --third-color:#F58021;
+    --forth-color:#20113D
+}
+
+*,
+*::before,
+*::after {
+     margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+ ul,
+ol {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+
+header{
+     width: 100%;
+    background-color: #F58021;
+}
+
+body{
+      font-family: "Montserrat", sans-serif;
+
+}
+.headerwrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.logo{
+   margin-block: 30px;
+    margin-left: 260px;
+}
+.socialicons{
+   margin-right: 260px;
+   margin-block: 34px;
+}
+.socialicons ul{
+    display: flex;
+    gap: 30px;
+}
+
+nav {
+    margin-block: 40px;
+    font-size: 18px;
+    color: 000000;
+    font-weight: 600;
+    margin-left: 405px;
+     
+}
+.navlist ul{
+    display: flex;
+    gap: 48px;
+}
+.navlist ul li span{
+    color: #00A092;
+}
+ 
+.bgimage{
+    background-image: url(../../images/pandabaground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+ 
+
+}
+
+.bgimage h1{
+     
+    max-width: 890px;
+    font-size: 82px;
+    font-weight: 800;
+    color: var(--main-color);
+}
+.cont{
+padding-left: 261px;
+    padding-top: 160px;
+    padding-right: 800px;
+     display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.bgimage p{
+    font-size: 19px;
+    font-weight: 400;
+    max-width: 430px;
+    color:var(--secondary-color)
+}
+.bgimage button{
+    margin-bottom: 338px;
+   padding-block: 20px; 
+    max-width: 240px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #F58021;
+    color: white;
+}
+
+.container{
+    padding-top:100px ;
+    max-width: 1680px;
+    margin: 0 auto;
+ }
+
+ .welcomeup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 150px;
+ }
+
+ .welcometext{
+     display: flex;
+    flex-direction: column;
+    gap:40px
+    }
+
+ .welcometext h2{
+    max-width: 803px;
+       font-size: 82px;
+    color: var(--main-color);
+    line-height: 1.1; 
+ }
+ .welcometext p{
+    font-size: 18px;
+    color: var(--secondary-color);
+    font-weight: 400;
+    max-width: 100%;
+    line-height: 150%;
+}
+
+ .welcomeup img{
+max-width: 800px;
+ }
+
+ .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #20113D;
+    gap:20px
+ }
+
+ .textside{
+        display: flex;
+    flex-direction: column;
+     gap: 20px;
+    padding-block:50px ;
+    padding-left: 260px;
+ }
+
+ .textside h2{
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 100%;
+    color: white;
+
+ }
+ .textside p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color:white;
+    max-width: 650px;
+ }
+
+ .buttonside{
+    display: flex;
+    flex-direction: column;
+    padding-right: 260px;
+   }
+ 
+.buttonside button h2{
+    color: white;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 130%;
+}
+.buttonside button p{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    margin-bottom: 10px;
+    
+}
+.buttonside button{
+    padding-block: 26px;
+    display: flex;
+    justify-content: center;
+
+    padding-left: 14px;
+    padding-right: 65px;
+    background: linear-gradient(to right, #20113D 70%, #F58021 30%);
+    color: white;
+}
+.buttonside button span{
+    margin-left: 120px;
+}
+
+.animalcontainer{
+    margin-inline: 500px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.animalcontainer h2{
+     font-size: 53px;
+    font-weight: 600;
+    line-height: 100%;
+     padding-bottom: 30px;
+    color: var(--main-color);
+}
+.animalcontainer p{
+    max-width: 1120px;
+     font-size: 30px;
+    font-weight: 500;
+    line-height: 130%;
+}
+.card{
+    
+    max-width: 478px;
+      height: 100%;
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+.textsd {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--forth-color);
+    gap: 15px;
+}
+.card button{
+  border: none;
+     color: var(--third-color);
+    font-size: 20px;
+    font-weight: 600;
+      background-color: var(--forth-color);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap:15px;
+      margin-bottom: 15px;
+
+ }
+    
+ 
+.textsd h3{
+    margin-top: 15px;
+  font-size: 26px;
+    font-weight: 500;
+    line-height: 130%;   
+    color: white;
+}
+.textsd p{
+    max-width: 379px;
+  font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: white;   
+    
+}
+.wrap {
+ display: flex;
+ gap: 20px;
+  flex-wrap: wrap;
+}
+.animal-img {
+  width: 100%;
+  height: 400px;      /* make the image as wide as the card */
+   object-fit: cover; 
+  display: block;    
+}
+
