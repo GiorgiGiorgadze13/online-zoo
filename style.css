@@ -408,19 +408,18 @@ max-width: 800px;
   color: white;
  
  }
- .historywrapper .container{
-   margin: 0 0;
-   max-width: 1660px;
- }
+ 
+ 
  .history{
     display: flex;
     justify-content: space-between;
-    gap: 20px;     
+    gap: 310px;     
   }
  .boxwrapper{
      display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
+  max-width: 600px;
 
     
  }
