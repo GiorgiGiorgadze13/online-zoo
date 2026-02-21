@@ -267,7 +267,7 @@ max-width: 800px;
 }
 .card{
     
-    max-width: 408px;
+    max-width: 300px;
       height: 100%;
 
     height: 100%;
@@ -343,6 +343,7 @@ max-width: 800px;
      display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 50px;
   }
  .donationheart{
     display: flex;
@@ -397,6 +398,14 @@ max-width: 800px;
  .historywrapper{
     padding-block: 100px;
     background-color: var(--forth-color);
+      padding: 100px 0;
+  background: 
+    linear-gradient(144.77deg, #20113d 18.53%, rgba(32, 17, 61, 0) 46.43%),
+    linear-gradient(177.34deg, #20113d 7.26%, rgba(32, 17, 61, 0) 14.89%),
+    url('./online-zoo/assets/images/pandabackground.webp');
+  background-size: cover;
+  background-position: center;
+  color: white;
  
  }
  .history{
@@ -504,26 +513,26 @@ max-width: 800px;
     grid-column: 1/3;
 }
  .panda{
-    background-color: black;
+    background-color: var(--forth-color);
     grid-column: 3/4;
     display: flex;
         flex-direction: column;
 
  }
  .tiger{
-    background-color: #F58021;
+ background-color: var(--forth-color);
     grid-column: 1/2;
        display: flex;
         flex-direction: column;
  }
  .lemur2{
-    background-color: aqua;
+  background-color: var(--forth-color);
     grid-column: 2/3;
        display: flex;
         flex-direction: column;
  }
  .bird{
-    background-color: pink;
+ background-color: var(--forth-color);
     grid-column: 3/4;
        display: flex;
         flex-direction: column;
@@ -546,6 +555,90 @@ max-width: 800px;
     object-fit: cover;
 }
 
-.gridtext p { 
+.gridtext  { 
+   display: flex;
+   flex-direction: column;
+   gap: 55px;
+   padding-top: 15px;
+   padding-inline: 25px;
+     font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
     color: white;
+}
+.gridtext button{
+   background-color: var(--forth-color);
+   color: #F58021;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+.gridtext button img{
+    width: 1em;   /* or any small size you want */
+    height: 1em;
+   object-fit: cover;
+}
+ .choosebutton{
+   background-color: white;
+   padding-block: 26px;
+   padding-inline: 35px;
+   border: 1px solid black;
+   display: block;
+   margin: 0 auto;
+}
+.lemuronscreen{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.upfooter{
+   display: flex;
+   gap: 65px;
+    display: flex;
+   align-items: center;
+
+}
+.upfooter ul{
+   display: flex;
+   gap: 46px;
+     font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;    
+}
+.upfooter button{
+   font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;  
+    padding-block: 26px;
+    padding-inline: 33px; 
+     
+}
+
+.footerwrapper{
+   background-color: var(--forth-color);
+   padding-block: 40px;
+   
+}
+.inside-line {
+    height: 2px;                
+    background-color: white;    
+    width: 100%;                
+    margin: 40px 0;            
+}
+
+.downfooter{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footeryear{
+   display: flex;
+   gap: 50px;
+}
+.footerlogo{
+   display: flex;
+   gap: 40px;
 }
