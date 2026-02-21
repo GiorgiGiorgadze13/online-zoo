@@ -408,16 +408,20 @@ max-width: 800px;
   color: white;
  
  }
+ .historywrapper .container{
+   margin: 0 0;
+   max-width: 1660px;
+ }
  .history{
     display: flex;
     justify-content: space-between;
     gap: 20px;     
   }
  .boxwrapper{
-     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-     justify-content: flex-end; 
+     display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+
     
  }
  .box{
@@ -426,7 +430,6 @@ max-width: 800px;
     justify-content: flex-end;
      gap: 15px;
     padding: 20px;
-    width: 455px;
     background-color: white;
     border: 1px solid black;
  }
@@ -435,7 +438,7 @@ max-width: 800px;
     color: white;
     display: flex;
     flex-direction: column;
-    gap:400px
+    gap:40px
  }
 .history-left h4{
      font-size: 54px;
@@ -454,6 +457,7 @@ max-width: 800px;
     
      display: flex;
      flex-direction: column;
+     align-items: flex-end;
  }
 
  .history-left button{
@@ -642,3 +646,4 @@ max-width: 800px;
    display: flex;
    gap: 40px;
 }
+ 
