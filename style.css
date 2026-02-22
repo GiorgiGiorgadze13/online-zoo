@@ -412,13 +412,13 @@ max-width: 800px;
  .history{
     display: flex;
     justify-content: space-between;
-    gap: 20px;     
+    gap: 310px;     
   }
  .boxwrapper{
-     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-     justify-content: flex-end; 
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+    max-width: 600px;
     
  }
  .box{
@@ -427,8 +427,7 @@ max-width: 800px;
     justify-content: flex-end;
      gap: 15px;
     padding: 20px;
-    width: 455px;
-    background-color: white;
+     background-color: white;
     border: 1px solid black;
  }
  .history-left{
@@ -482,6 +481,10 @@ max-width: 800px;
  }
  .arrowbuttons{
     color: red;
+ }
+  .historywrapper .container{
+   margin: 0 0;
+   max-width: 1660px;
  }
 .animal-care-text{
     display: flex;
