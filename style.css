@@ -445,8 +445,8 @@ max-width: 800px;
      display: flex;
      flex-direction: column;
      background-image: url(./online-zoo/assets/images/backpanda.webp);
-   background-size: cover;      /* fills screen */
-  background-position: center; /* keeps image centered */
+   background-size: cover;     
+  background-position: center; 
   background-repeat: no-repeat;
      }
 
