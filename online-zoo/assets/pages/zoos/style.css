@@ -1,0 +1,135 @@
+:root {
+    --main-color:#00A092;
+    --secondary-color:#000000;
+    --third-color:#F58021;
+    --forth-color:#20113D;
+}
+
+*,
+*::before,
+*::after {
+     margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+ ul,
+ol {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+
+header{
+     width: 100%;
+    background-color: #F58021;
+}
+
+body{
+      font-family: "Montserrat", sans-serif;
+
+}
+.headerwrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 30px;
+}
+ 
+ .nav-social{
+    display: flex;
+    align-items: center;
+     gap: 50px
+ }
+ 
+ .socialicons ul{
+    display: flex;
+ gap:15px }
+ 
+ 
+.navlist ul{
+    display: flex;
+    gap: 48px;
+     font-size: 19px;
+    font-weight: 600;
+}
+
+.container{
+     max-width: 1680px;
+    margin: 0 auto;
+    width: 70%;
+ }
+
+ .animalmenu{
+    background-color: var(--forth-color);
+    max-width: 200px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    gap: 10px; 
+    position: relative;
+  }
+  
+
+ .circle{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--third-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+circle img{
+     width: 80%px;  
+    height: 80%px;
+    object-fit: cover;
+    border-radius: 50%;
+ }
+
+ .line{
+    background-color: #FFFFFF
+    ;
+    height: 1px;
+    width: 100%;
+ }
+ .before{
+    background-color: var(--third-color);
+    display: flex;
+      align-self: flex-start;
+      text-align: center;
+    padding: 10px 10px;
+    gap: 20px;
+ }
+ .after{
+    padding-bottom: 30px;
+ }
+ 
+.title {
+   
+  display: flex;
+    align-items: center;
+}
+.title button {
+   margin-left: auto;  
+   padding: 26px 34px;
+     font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;
+    color: white;
+    background-color: var(--third-color);
+}
+ 
+.title h2{
+       margin: 0 auto;        /* pushes h2 to center horizontally */
+    text-align: center;  
+       font-size: 54px;
+    font-weight: 600;
+    line-height: 100%;
+    color: var(--main-color);    
+}
