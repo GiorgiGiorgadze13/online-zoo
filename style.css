@@ -267,7 +267,7 @@ max-width: 800px;
 }
 .card{
     
-    max-width: 408px;
+    max-width: 300px;
       height: 100%;
 
     height: 100%;
@@ -343,6 +343,7 @@ max-width: 800px;
      display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 50px;
   }
  .donationheart{
     display: flex;
@@ -397,18 +398,29 @@ max-width: 800px;
  .historywrapper{
     padding-top:100px;
     background-color: var(--forth-color);
+      padding: 100px 0;
+  background: 
+    linear-gradient(144.77deg, #20113d 18.53%, rgba(32, 17, 61, 0) 46.43%),
+    linear-gradient(177.34deg, #20113d 7.26%, rgba(32, 17, 61, 0) 14.89%),
+    url('./online-zoo/assets/images/pandabackground.webp');
+  background-size: cover;
+  background-position: center;
+  color: white;
  
  }
+ 
+ 
  .history{
     display: flex;
     justify-content: space-between;
-    gap: 20px;     
+    gap: 310px;     
   }
  .boxwrapper{
-     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-     justify-content: flex-end; 
+     display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 600px;
+
     
  }
  .box{
@@ -417,7 +429,6 @@ max-width: 800px;
     justify-content: flex-end;
      gap: 15px;
     padding: 20px;
-    width: 455px;
     background-color: white;
     border: 1px solid black;
  }
@@ -426,7 +437,8 @@ max-width: 800px;
     color: white;
     display: flex;
     flex-direction: column;
-  }
+    gap:400px
+ }
 .history-left h4{
      font-size: 54px;
     font-weight: 600;
@@ -444,11 +456,7 @@ max-width: 800px;
     padding-block: 100px;
      display: flex;
      flex-direction: column;
-     background-image: url(./online-zoo/assets/images/backpanda.webp);
-   background-size: cover;     
-  background-position: center; 
-  background-repeat: no-repeat;
-     }
+ }
 
 
  .history-left button{
@@ -520,19 +528,19 @@ max-width: 800px;
 
  }
  .tiger{
-    background-color: var(--forth-color);
+    background-color: #F58021;
     grid-column: 1/2;
        display: flex;
         flex-direction: column;
  }
  .lemur2{
-    background-color: var(--forth-color);
+    background-color: aqua;
     grid-column: 2/3;
        display: flex;
         flex-direction: column;
  }
  .bird{
-    background-color: var(--forth-color);
+    background-color: pink;
     grid-column: 3/4;
        display: flex;
         flex-direction: column;
@@ -556,7 +564,6 @@ max-width: 800px;
 }
 
 .gridtext p { 
-    
     color: white;
        font-size: 18px;
     font-weight: 400;
@@ -574,3 +581,80 @@ align-items: center;}
 .button{
     padding-top: 300px;
 }
+.gridtext button{
+   background-color: var(--forth-color);
+   color: #F58021;
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+.gridtext button img{
+    width: 1em;   /* or any small size you want */
+    height: 1em;
+   object-fit: cover;
+}
+ .choosebutton{
+   background-color: white;
+   padding-block: 26px;
+   padding-inline: 35px;
+   border: 1px solid black;
+   display: block;
+   margin: 0 auto;
+}
+.lemuronscreen{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.upfooter{
+   display: flex;
+   gap: 65px;
+    display: flex;
+   align-items: center;
+
+}
+.upfooter ul{
+   display: flex;
+   gap: 46px;
+     font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;    
+}
+.upfooter button{
+   font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;  
+    padding-block: 26px;
+    padding-inline: 33px; 
+     
+}
+
+.footerwrapper{
+   background-color: var(--forth-color);
+   padding-block: 40px;
+   
+}
+.inside-line {
+    height: 2px;                
+    background-color: white;    
+    width: 100%;                
+    margin: 40px 0;            
+}
+
+.downfooter{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footeryear{
+   display: flex;
+   gap: 50px;
+}
+.footerlogo{
+   display: flex;
+   gap: 40px;
+}
+ 
