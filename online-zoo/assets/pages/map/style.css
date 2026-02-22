@@ -3,7 +3,7 @@
     --main-color:#00A092;
     --secondary-color:#000000;
     --third-color:#F58021;
-    --forth-color:#20113D
+    --forth-color:#20113D;
 }
 
 *,
@@ -72,7 +72,8 @@ align-items: center;
 gap:70px
  }
 
- .map-text{
+ .map-text p{
+   margin-top: 50px;
     max-width: 500px;
     line-height: 100%;
     font-size: 54px;
@@ -80,6 +81,94 @@ gap:70px
     color: var(--forth-color);
     text-transform: capitalize;
  }
- section{
-    padding-block:100px;
- }
+  
+ 
+.upfooter{
+   display: flex;
+   gap: 65px;
+    display: flex;
+   align-items: center;
+
+}
+.upfooter ul{
+   display: flex;
+   gap: 46px;
+     font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;    
+}
+.upfooter button{
+   font-size: 18px;
+    font-weight: 600;
+    line-height: 100%;  
+    padding-block: 26px;
+    padding-inline: 33px; 
+     
+}
+
+.footerwrapper{
+   background-color: var(--forth-color);
+   padding-block: 40px;
+   
+}
+.inside-line {
+    height: 2px;                
+    background-color: white;    
+    width: 100%;                
+    margin: 40px 0;            
+}
+
+.downfooter{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.footeryear{
+   display: flex;
+   gap: 50px;
+}
+.footerlogo{
+   display: flex;
+   gap: 40px;
+}
+
+.map-container  {
+   background-color: white;
+}
+.map{
+    width: 100%;
+    position: relative;
+}
+
+.arwivi{
+   position: absolute;
+   left: 269px;
+   bottom: 343px;
+}
+
+.lomi{
+   position: absolute;
+   left: 549px;
+   bottom: 303px;
+}
+.mgl{
+   position: absolute;
+   left: 662px;
+   bottom: 265px;
+}
+.vefxvi{
+   position: absolute;
+   left: 997px;
+   bottom: 217px;
+}
+.koala{
+   position: absolute;
+   right: -52px;
+   bottom: 130px;
+}
+.datvi{
+   position: absolute;
+   right: 125px;
+   bottom: 391px;
+
+}
